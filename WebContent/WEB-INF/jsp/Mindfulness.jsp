@@ -21,7 +21,7 @@
    </div>
 </div>
 <div class="add-quotes">
-<a href="addquotes">Add quotes</a>
+<a href="mindfulness/addquotes">Add quotes</a>
 </div>
 </body>
 </html>
