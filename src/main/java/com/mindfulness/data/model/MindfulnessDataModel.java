@@ -13,7 +13,7 @@ import javax.persistence.Table;
 public class MindfulnessDataModel {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "Id")
 	private int id;
 
