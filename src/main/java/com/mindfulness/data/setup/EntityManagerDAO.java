@@ -1,27 +1,27 @@
 package com.mindfulness.data.setup;
 
-import java.util.List;
-
 import com.mindfulness.data.model.MindfulnessDataModel;
 
+import java.util.List;
+
 public interface EntityManagerDAO {
-
-	public List<MindfulnessDataModel> listAllQuotes();
-
-	public String selectOneQuote(int id);
-
-	public List<MindfulnessDataModel> searchQuoteByName(String searchString);
-
-	public int insertAQuote(String quote);
-
-	public List<Integer> batchInserts(String[] strings);
-
-	public int performAnUpdate(int id);
-
-	public List<Integer> batchUpdates(String[] strings);
-
-	public void deleteSingleQuote(int id);
-
-	public List<Integer> batchDeletes(int[] ids);
-
+	
+	List<MindfulnessDataModel> listAllQuotes();
+	
+	String selectOneQuote(int id);
+	
+	List<MindfulnessDataModel> searchQuoteByName(String searchString);
+	
+	int insertAQuote(String quote);
+	
+	List<Integer> batchInserts(String[] strings);
+	
+	int performAnUpdate(int id, String updatedString);
+	
+	List<Integer> batchUpdates(int[] ids, String[] strings);
+	
+	void deleteSingleQuote(int id);
+	
+	List<Integer> batchDeletes(int[] ids);
+	
 }
