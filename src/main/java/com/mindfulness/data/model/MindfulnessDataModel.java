@@ -11,6 +11,7 @@ public class MindfulnessDataModel {
 	@Column(name = "Id")
 	private int id;
 	
+	@Transient
 	private String secondId;
 	
 	@Column(name = "Quote")
