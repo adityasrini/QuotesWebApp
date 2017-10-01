@@ -14,6 +14,21 @@
             <SshTunnelingConfiguration />
           </option>
         </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="authenticationMechanism" value="SCRAM-SHA-1" />
+          <option name="label" value="mLab" />
+          <option name="password" value="passw0rd" />
+          <option name="serverUrls">
+            <list>
+              <option value="ds161099.mlab.com:61099" />
+            </list>
+          </option>
+          <option name="sshTunnelingConfiguration">
+            <SshTunnelingConfiguration />
+          </option>
+          <option name="userDatabase" value="heroku_c59pbs6n" />
+          <option name="username" value="adityas" />
+        </ServerConfiguration>
       </list>
     </option>
   </component>
