@@ -6,27 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81b1e555-8df8-453c-9f7e-d348e2541f9a" name="Default" comment="N/A">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/MindfulnessController-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/AddQuotes.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/Mindfulness.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-aop-4.3.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-beans-4.3.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-context-4.3.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-core-4.3.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-expression-4.3.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-web-4.3.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-webmvc-4.3.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/QuotesWebApp_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/QuotesWebApp_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" />
+    <list default="true" id="81b1e555-8df8-453c-9f7e-d348e2541f9a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuotesWebApp.iml" afterPath="$PROJECT_DIR$/QuotesWebApp.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -635,7 +616,8 @@
     <MESSAGE value="Commit with localhost mongo. Need to hookup heroku mongo before it works. Part 2" />
     <MESSAGE value="Added @Transient to the Data Model." />
     <MESSAGE value="N/A" />
-    <option name="LAST_COMMIT_MESSAGE" value="N/A" />
+    <MESSAGE value="Fully changed project from XML config to Java. Finally! SCREW XML NOW AND FOREVER! That persistence.xml file tho 😩" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fully changed project from XML config to Java. Finally! SCREW XML NOW AND FOREVER! That persistence.xml file tho 😩" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
